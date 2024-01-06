@@ -15,8 +15,11 @@
 
 .nav__a {
     text-decoration: none;
+    color: white;
+    text-decoration: 700;
 }
 
 .nav__a:hover {
     text-decoration: none;
+    color: white;
 }
