@@ -4,3 +4,19 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+.navbar {
+    background-image: linear-gradient(to right, #a517ba, #5f1178);
+}
+
+.nav__li {
+    padding: 15px;
+}
+
+.nav__a {
+    text-decoration: none;
+}
+
+.nav__a:hover {
+    text-decoration: none;
+}
