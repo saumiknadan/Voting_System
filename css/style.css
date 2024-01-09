@@ -56,3 +56,21 @@
 #about {
     background-image: linear-gradient(to right, #a517ba,#5f1178 );
 }
+
+.contact-form-home{
+    border: 2px #a517ba solid;
+}
+
+.submitBTN{
+    padding: 17px 24px;
+    background-image:linear-gradient(to right, #a517ba, #5f1178);
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
+    border: 2px white solid ;
+    transition: transform 250ms ease-in-out;
+    margin-left: auto;
+}
+
+.submitBTN:hover{
+    transform: scale(1.1);
+}
