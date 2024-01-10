@@ -74,3 +74,11 @@
 .submitBTN:hover{
     transform: scale(1.1);
 }
+
+.footer_social_ul li{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    color: linear-gradient(to right, #a517ba,#5f1178 );
+}
