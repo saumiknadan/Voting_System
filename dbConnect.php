@@ -1,9 +1,10 @@
 <?php
 
-$dsn = "mysql:host=locahost;dbname=voting";
+$dsn = "mysql:host=localhost;dbname=voting";
 $user = "root";
 $pass = "";
-$option = [PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION,PDO::FETCH_ASSOC];
+$option = [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,PDO::FETCH_ASSOC];
+
 
 try {
     $pdo = new PDO($dsn, $user, $pass, $option);
